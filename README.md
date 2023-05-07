@@ -1,2 +1,2 @@
-# stackx_js1
+# Stackx JavaScript 1
  exercicios

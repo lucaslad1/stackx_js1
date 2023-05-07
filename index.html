@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      let a = 6;
+      let b = 8;
+
+      function soma(a, b) {
+        return a + b;
+      }
+
+      let valorsoma = soma(6, 8);
+      console.log("soma =", valorsoma);
+
+      let multiplicacao = a * b;
+      console.log("multiplição =", multiplicacao);
+
+      let divisao = a / b;
+      console.log("divisão =", divisao);
+
+      let subtracao = a - b;
+      console.log("subtração =", subtracao);
+
+      if (a > b) {
+        console.log("maior número =", a);
+      } else if (b > a) {
+        console.log("maior número =", b);
+      }
+
+      let Concat = `${a}${b}`;
+      console.log("Concat =", Concat);
+
+      if (b > 10) {
+        console.log("maior que 10 ");
+      } else if (b == 10) {
+        console.log("igual a 10");
+      } else if (b < 10) {
+        console.log("menor que 10");
+      }
+
+      if (b > 0) {
+        console.log("número positivo ");
+      } else if (b < 0) {
+        console.log("número negativo");
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
